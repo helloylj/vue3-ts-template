@@ -1,5 +1,8 @@
 <template>
   <div></div>
+  <div>
+    <p></p>
+  </div>
 </template>
 
 <script lang="ts">
@@ -8,7 +11,8 @@ import { onMounted } from 'vue'
 export default {
   setup() {
     onMounted(() => {
-      console.log('mounted')
+      var a = 1
+      console.log(a)
     })
   }
 }
