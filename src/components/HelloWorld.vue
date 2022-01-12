@@ -1,8 +1,5 @@
 <template>
-  <div></div>
-  <div>
-    <p></p>
-  </div>
+  <div>this is vue3 ts template</div>
 </template>
 
 <script lang="ts">
@@ -10,10 +7,7 @@ import { onMounted } from 'vue'
 
 export default {
   setup() {
-    onMounted(() => {
-      var a = 1
-      console.log(a)
-    })
+    onMounted(() => {})
   }
 }
 </script>
